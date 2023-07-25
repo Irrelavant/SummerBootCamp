@@ -61,18 +61,22 @@ header li :hover {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*hello this does what is says it does  */
 .card {
-    width: 28%;
-    background-color: white;
-    color: #1e2d2fe8;
+    width: 20%;
+    background-color: #f7f7f7;
+    color: #5b4949;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    text-align: left;
     padding: 15px;
     min-width: 280px;
+    
 }
-
+.Unlist {
+  font-size:14px;
+  list-style-type: none;
+}
 .card h2 {
     font-size: 1.5em;
 }
@@ -147,4 +151,5 @@ footer div {
     .business_information {
         grid-row: 3;
     }
+   
 }

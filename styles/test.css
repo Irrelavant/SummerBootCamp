@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playfair+Display&display=swap');
+/* CSS HEX */
+:root {
+--bdg2: #dde0bdff;
+--shd4: #779382ff;
+--shd1: #104547ff;
+--shd5: #4b5358ff;
+--shd3: #453035ff;
+--bdg3: #3f0d12ff;
+--bgd1: #5c8001ff;
+}
+
+
+
 img {
+  height:15% ;
   width: 600px;
+}
+ .fontTest{
+      font-family: 'Playfair Display',serif;  
+    }
+.curse{
+  font-family: Borel, cursive;
 }
