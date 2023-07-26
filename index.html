@@ -9,6 +9,7 @@
   <title>MyspaceM</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="codesheet" href="./scripts/index.js"
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -56,8 +57,23 @@
         </ul>
       </div>
       <!--This is content card 2-->
-      <div class="card">
-        <h4> Things I have done</h4>
+      <div class="card"> hello
+        <h4> Things I have done</h4> // Create a button element
+￼      const button = document.createElement('button')
+
+      // Set the button text to 'Can you click me?'
+      button.innerText = 'Can you click me?'
+
+      button.id = 'mainButton'
+
+      // Attach the "click" event to your button
+      button.addEventListener('click', () => {
+        // When there is a "click"
+        // it shows an alert in the browser
+        alert('Oh, you clicked me!')
+      })
+
+      document.body.appendChild(button)
         <ul class="Unlist">
           <li>Engine work</li>
           <li>rode a bike</li>
@@ -70,6 +86,9 @@
        <div class="card">
       </div>
        <div class="card">
+         <h4> number generator</h4>
+         <button type="button" class="card button"></button>
+         <textarea class= "cardOutput" itemtype="output"> </textarea> 
       </div>
       <!--This is content card 3-->
       <div class="card">
