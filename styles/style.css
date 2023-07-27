@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap');
 * {
-    font-family:  Borel, cursive;
+    font-family:  "Handjet", "cursive";
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
@@ -56,10 +57,14 @@ header li {
     align-self: center;
     text-decoration: none;
 }
-
+header li p {
+  align-self: center;
+  text-decoration: none;
+  color: var(--shd5);
+}
 header li :hover {
     text-decoration: underline;
-    color: var(--shd5);
+    color: var(--shd4);
 }
 
 .content {
@@ -89,6 +94,7 @@ header li :hover {
 .cardImg {
   border-radius: 6px;
   width: 50%;
+  height: auto;
   box-shadow: 0 2px 4px 0 var(--shd1),1px 2px var(--shd3);
   padding: -6px -12px;
   
