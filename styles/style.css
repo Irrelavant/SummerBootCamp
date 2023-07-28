@@ -112,6 +112,10 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+button :hover {
+  background-color: var(--shd4);
+  color: var(--bgd3);
+}
 
 footer {
     background-color: var(--shd5);
@@ -122,7 +126,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
 footer a {
     color: var(--shd5);
 }

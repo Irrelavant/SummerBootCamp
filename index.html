@@ -9,7 +9,8 @@
   <title>MyspaceM</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="codesheet" href="./scripts/index.js"
+  <script src="./scripts/dadJoke.js" defer></script>
+  <script scr="./scripts/diceroller.js" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -69,9 +70,14 @@
        <div class="card"> How to paint special weapons <iframe class ="film" src="https://www.youtube.com/embed/H1FU92H6VO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
        <div class="card">
-         <h4> number generator</h4>
-         <button type="button" onClick="testName()" > try me</button>
-         <p id="output"> No result yet</p> 
+         <h4>Joke generator</h4>
+         <button type="button" onclick="newJoke()" > try me</button>
+         <div id="dad-joke"> No result yet</div> 
+      </div>
+      <div class="card">
+         <h4>dice roller</h4>
+         <button type="button" onclick="diceRoller()" > try me</button>
+         <div id="dice-roll"> No result yet</div> 
       </div>
       <!--This is content card 3-->
       <div class="card">
