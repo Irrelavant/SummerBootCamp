@@ -126,8 +126,8 @@ footer {
     text-align: center;
     padding: 15px;
 }
-footer a {
-    color: var(--shd5);
+footer a :hover {
+    color: var(--shd1);
 }
 
 footer div {
@@ -178,4 +178,3 @@ footer div {
     }
    
 }
-
