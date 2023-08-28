@@ -18,4 +18,3 @@ const e ="";
       });
   }
 window.addEventListener('load', (event) =>{diceRoller(); });
-    
